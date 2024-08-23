@@ -88,7 +88,7 @@
 :root {
     @include theme-variables('light');
 
-    --max-layout-width: 1000px;
+    --max-layout-width: 70%;
     --normal-layout-width: 600px;
     --medium-layout-width: 400px;
     --small-layout-width: 200px;
@@ -160,7 +160,7 @@ article {
     $base-margin: 6rem;
     margin: 0 auto;
 
-    max-width: calc(var(--max-layout-width) - 2*$base-margin);
+    max-width: none;
 
     p,
     li,
