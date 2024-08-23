@@ -55,6 +55,14 @@
     font-display: swap;
 }
 
+@font-face {
+    src: local('Noto Serif'),
+        url('fonts/noto-serif-v23-latin-regular.woff2') format("woff2");
+    /* Copyright 2012 Google Inc. All Rights Reserved. Licensed under the SIL Open Font License, Version 1.1. More information available at: http://scripts.sil.org/OFL */
+    font-family: 'Noto Serif';
+    font-display: swap;
+}
+
 @mixin theme-variables($theme) {
     @if $theme =='light' {
         --background-color: white;
@@ -103,7 +111,7 @@
     --paragraph-spacing: max(2.3vmin, 24px);
 
     --sans-serif-font: 'Space Grotesk', Helvetica, Arial, sans-serif;
-    --serif-font: 'Source Serif', 'Georgia', serif;
+    --serif-font: 'Noto Serif', 'Georgia', serif;
     --code-font: 'Cascadia Code';
 
     line-height: 190%;
